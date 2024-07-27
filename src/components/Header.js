@@ -1,5 +1,9 @@
-// heelo
-//helo this is 
-// helo bhai
-// arin chutiya
-// this is last time
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div className=''>hello</div>
+  )
+}
+
+export default Header
