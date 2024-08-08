@@ -23,7 +23,7 @@ const ContactUsForm = () => {
       </div> */}
 
 <div className='flex flex-col lg:flex-row flex-wrap h-auto lg:h-auto px-4 md:px-8 lg:px-32 pt-20 pb-14 bgimg mt-16 mb-16 mx-auto'>
-  <div className='bg-[#100E2C] flex flex-wrap w-full lg:w-1/3 h-auto lg:h-auto mx-auto lg:mr-auto p-6 lg:p-10 rounded-xl mb-10 lg:mb-0'>
+  <div className='bg-[#100E2C] flex flex-wrap w-full md:w-1/2 h-auto lg:h-auto mx-auto lg:mr-auto p-6 lg:p-10 rounded-xl mb-10 lg:mb-0'>
     <h3 className='text-white text-left font-bold mb-5 text-xl lg:text-2xl'>Get in touch</h3>
     <p className='text-white text-left text-sm lg:text-base mb-5'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus</p>
     <input placeholder='Your name' className='rounded-lg w-full h-12 pl-3 mb-4'/>
