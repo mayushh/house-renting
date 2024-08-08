@@ -27,6 +27,9 @@
 }
 .bgimg{
   background-image: url(./components/get_In_Touch_bg.png);
+  height: 75.4vh;
+  background-size: cover;
+  max-width: 100%;
 }
 .loca11{
   background-image : url(../src/images/wide.png);

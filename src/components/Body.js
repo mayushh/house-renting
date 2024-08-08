@@ -29,8 +29,8 @@ const Body = () => {
 
     {/* Yaha se Our client success is our success start hota hai */}
 
-    <div className='flex flex-col justify-items-center align-middle  px-44 py-14 w-[1076] h-[600px] '>
-      <div className=' flex  mb-10'>
+    {/* <div className='flex flex-col justify-items-center align-middle  px-44 py-14 w-[1076] h-[600px] '>
+      <div className='   mb-10'>
           <h2 className='w-[634] h-[27] mb-5 font-bold text-3xl text-[#100e2c]'>Our client’s success is our success.</h2>
           <p className=' w-[450px] h-14  inline-block align-middle text-xs'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus. Porttitor fermentum eu urna eget</p>
       </div>
@@ -66,10 +66,51 @@ const Body = () => {
 </div>
 
 
+      </div> */}
+    {/* </div> */}
+
+    <div className='flex flex-col items-center px-4 md:px-12 lg:px-20 py-14 w-full lg:w-5/6 mx-auto h-auto'>
+  <div className='mb-10 text-center'>
+    <h2 className='w-full lg:w-2/3 mb-5 font-bold text-2xl lg:text-3xl text-[#100e2c]'>Our client’s success is our success.</h2>
+    <p className='w-full lg:w-1/2 text-sm lg:text-base'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus. Porttitor fermentum eu urna eget.</p>
+  </div>
+  <div className='flex flex-col md:flex-row justify-center gap-6 w-full'>
+    <div className='h-auto w-full md:w-1/3 bg-[#100E2C] rounded-lg shadow-md p-6'>
+      <div className='flex flex-col items-center gap-8'>
+        <img src={homeIcon} className='h-16 w-16'></img>
+        <h2 className='text-white text-lg lg:text-xl font-semibold'>Buy a property</h2>
+      </div>
+      <p className='text-white text-sm lg:text-base mt-6 mb-8 text-center'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus. Porttitor fermentum eu.</p>
+      <div className='flex justify-center'>
+        <button className='bg-blue-600 hover:bg-blue-700 text-white rounded-md py-2 px-4 transition duration-300 ease-in-out'>Find property</button>
       </div>
     </div>
 
-    <CityYouLive></CityYouLive>
+    <div className='h-auto w-full md:w-1/3 bg-[#100E2C] rounded-lg shadow-md p-6'>
+      <div className='flex flex-col items-center gap-8'>
+        <img src={propertyIcon} className='h-16 w-16'></img>
+        <h2 className='text-white text-lg lg:text-xl font-semibold'>Buy a property</h2>
+      </div>
+      <p className='text-white text-sm lg:text-base mt-6 mb-8 text-center'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus. Porttitor fermentum eu.</p>
+      <div className='flex justify-center'>
+        <button className='bg-blue-600 hover:bg-blue-700 text-white rounded-md py-2 px-4 transition duration-300 ease-in-out'>Find property</button>
+      </div>
+    </div>
+
+    <div className='h-auto w-full md:w-1/3 bg-[#100E2C] rounded-lg shadow-md p-6'>
+      <div className='flex flex-col items-center gap-8'>
+        <img src={rentIcon} className='h-16 w-16'></img>
+        <h2 className='text-white text-lg lg:text-xl font-semibold'>Buy a property</h2>
+      </div>
+      <p className='text-white text-sm lg:text-base mt-6 mb-8 text-center'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus. Porttitor fermentum eu.</p>
+      <div className='flex justify-center'>
+        <button className='bg-blue-600 hover:bg-blue-700 text-white rounded-md py-2 px-4 transition duration-300 ease-in-out'>Find property</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     </div>
   )
 }
