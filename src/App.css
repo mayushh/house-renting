@@ -28,3 +28,28 @@
 .bgimg{
   background-image: url(./components/get_In_Touch_bg.png);
 }
+.loca11{
+  background-image : url(../src/images/wide.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Centers the image */
+  /* height: 62vh; Ensures the body element takes up the full viewport height */
+  
+
+}
+.loca12{
+  background-image : url(../src/images/equal.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Centers the image */
+  /* height: 62vh; Ensures the body element takes up the full viewport height */
+
+}
+.loca13{
+  background-image : url(../src/images/long.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Centers the image */
+  /* height: 62vh; Ensures the body element takes up the full viewport height */
+
+}

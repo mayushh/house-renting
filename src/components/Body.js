@@ -4,6 +4,7 @@ import heroImage from './hero.jpg'
 import homeIcon from './home.png'
 import propertyIcon from './property.png'
 import rentIcon from './rent.png'
+import CityYouLive from '../CityYouLive'
 const Body = () => {
     const [location, setloaction] = useState("");
     const handleOnChange=(e)=>{
@@ -29,11 +30,11 @@ const Body = () => {
     {/* Yaha se Our client success is our success start hota hai */}
 
     <div className='flex flex-col justify-items-center align-middle  px-44 py-14 w-[1076] h-[600px] '>
-      <div className='   mb-10'>
+      <div className=' flex  mb-10'>
           <h2 className='w-[634] h-[27] mb-5 font-bold text-3xl text-[#100e2c]'>Our client’s success is our success.</h2>
           <p className=' w-[450px] h-14  inline-block align-middle text-xs'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus. Porttitor fermentum eu urna eget</p>
       </div>
-      <div className='flex flex-row h-[400] w-[1076] justify-center '>
+      <div className='flex   h-[400] w-[1076] justify-center '>
         <div className='h-96 w-80 bg-[#100E2C] rounded-lg shadow-md mr-6'>
           <div className='flex flex-col items-center p-10 gap-8'>
             <img src={homeIcon} className='h-16 w-16 '></img>
@@ -68,6 +69,7 @@ const Body = () => {
       </div>
     </div>
 
+    <CityYouLive></CityYouLive>
     </div>
   )
 }

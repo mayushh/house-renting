@@ -3,7 +3,7 @@ import React from 'react'
 const ContactUsForm = () => {
   return (
     <div>
-      <div className='flex flex-row  h-[754px] w-[1440px] px-[182px] pt-[84px] pb-14 bgimg mt-16 mb-16 ml-11'>
+      <div className='flex flex-row  h-[754px] w-[1440px] px-[182px] pt-[84px] pb-14 bgimg mt-16 mb-16'>
            <div className='bg-[#100E2C] w-[416px] h-[610px] mr-auto p-10 rounded-xl'>
                  <h3 className='text-white text-left font-bold mb-5 text-2xl'>Get in touch</h3>
                  <p className='text-white text-left text-xs mb-5'>Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus</p>
