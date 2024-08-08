@@ -25,3 +25,6 @@
     height: 62vh; /* Ensures the body element takes up the full viewport height */
     margin: auto;
 }
+.bgimg{
+  background-image: url(./components/get_In_Touch_bg.png);
+}
