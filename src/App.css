@@ -23,5 +23,5 @@
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image */
     height: 62vh; /* Ensures the body element takes up the full viewport height */
-    margin: 0;
+    margin: auto;
 }
