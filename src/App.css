@@ -27,4 +27,7 @@
 }
 .bgimg{
   background-image: url(./components/get_In_Touch_bg.png);
+  height: 75.4vh;
+  background-size: cover;
+  max-width: 100%;
 }
