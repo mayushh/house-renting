@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Body from './components/Body';
 import ContactUsForm from './components/ContactUsForm'
 import CityYouLive from './CityYouLive';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Body/>
       <ContactUsForm/>
       <CityYouLive/>
+      <Card/>
       <Footer/>
     </div>
   );

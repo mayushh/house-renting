@@ -55,3 +55,6 @@
   /* height: 62vh; Ensures the body element takes up the full viewport height */
 
 }
+.roomImage{
+  background-image : url(../src/components/Img\ \(2\).png);
+}
